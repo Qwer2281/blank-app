@@ -12,7 +12,7 @@ if "answer" not in st.session_state:
     st.session_state.result = ""
 
 # --- 카드 이미지 불러오기 ---
-card_image = Image.open("/workspaces/blank-app/images/CardB.png")  # 여기
+card_image = Image.open("images/CardB.png")  # 여기
 # 실제 카드 크기처럼 비율 조절 (너비: 120px, 높이: 180px)
 card_image = card_image.resize((120, 180))
 
