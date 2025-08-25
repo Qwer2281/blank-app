@@ -15,9 +15,9 @@ if "answer" not in st.session_state:
     st.session_state.result = ""
 
 # --- 카드 이미지 불러오기 ---
-card_back = Image.open("images/CardB.png")  # 여기
+card_back = Image.open("static/images/CardB.png")  # 여기
 card_back = card_back.resize((120, 180))
-card_joker = Image.open("images/CardJ.png")  # 여기
+card_joker = Image.open("static/images/CardJ.png")  # 여기
 card_joker = card_joker.resize((120, 180))
 
 # --- 오답 이미지 후보 불러오기 ---
